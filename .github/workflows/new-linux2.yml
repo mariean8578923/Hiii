@@ -1,4 +1,4 @@
-name: new-linux1
+name: new-linux2
 
 on:
   workflow_dispatch:
@@ -13,4 +13,4 @@ jobs:
         run: |
          sudo apt update
          sudo apt install tmate -y
-         sudo tmate
+         tmate
