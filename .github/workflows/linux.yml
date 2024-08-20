@@ -11,6 +11,7 @@ jobs:
     steps:
       - name: Downloading & Setting Up
         run: |
+         sudo su
          apt update
          apt install tmate -y
          tmate
