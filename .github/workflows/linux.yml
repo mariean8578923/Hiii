@@ -11,10 +11,9 @@ jobs:
     steps:
       - name: Downloading & Setting Up
         run: |
-         sudo su
-         apt update
-         apt install tmate -y
-         tmate
+         sudo apt update
+         sudo apt install tmate -y
+         sudo tmate
 
       - name: Time Counter
         run: cmd /c loop.bat
