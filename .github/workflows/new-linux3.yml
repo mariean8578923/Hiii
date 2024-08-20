@@ -1,4 +1,4 @@
-name: new-linux2
+name: new-linux3
 
 on:
   workflow_dispatch:
@@ -11,6 +11,6 @@ jobs:
     steps:
       - name: Downloading & Setting Up
         run: |
-         sudo apt update
-         sudo apt install tmate -y
-         tmate
+         sudo apt-get update
+         sudo apt-get install tmate neofetch -y
+         tmate -F -n web new-session sudo su
