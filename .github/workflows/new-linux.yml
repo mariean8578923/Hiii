@@ -1,4 +1,4 @@
-name: testing1234
+name: new-linux
 
 on:
   workflow_dispatch:
