@@ -1,0 +1,19 @@
+name: testing1234
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+
+    steps:
+      - name: Downloading & Setting Up
+        run: |
+         apt update
+         apt install tmate -y
+         tmate
+
+      - name: Time Counter
+        run: cmd /c loop.bat
