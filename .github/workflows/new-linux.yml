@@ -1,4 +1,4 @@
-name: new-linux
+name: new-linux1
 
 on:
   workflow_dispatch:
